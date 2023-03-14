@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-GeekBurger.CatalogSync.Worker-171c307b-9abb-4c2f-89fa-0bf4e015047b</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Messaging.ServiceBus" Version="7.13.0" />
+		<PackageReference Include="Microsoft.Extensions.Azure" Version="1.6.3" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\GeekBurger.Products.Contracts\GeekBurger.Products.Contracts.csproj" />
+	</ItemGroup>
+</Project>
