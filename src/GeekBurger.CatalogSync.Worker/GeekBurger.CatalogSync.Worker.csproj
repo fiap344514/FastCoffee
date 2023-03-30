@@ -9,11 +9,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="Azure.Messaging.ServiceBus" Version="7.13.0" />
+		<PackageReference Include="GeekBurger.Products.Contracts" Version="1.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Azure" Version="1.6.3" />
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\GeekBurger.Products.Contracts\GeekBurger.Products.Contracts.csproj" />
 	</ItemGroup>
 </Project>
